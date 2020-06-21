@@ -1,0 +1,310 @@
+# Arabic translations for PACKAGE package.
+# Copyright (C) 2020 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# User <H.Sabzehmeidani@chmail.ir>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-15 14:34+0430\n"
+"PO-Revision-Date: 2020-06-11 18:29+0430\n"
+"Last-Translator: User <H.Sabzehmeidani@chmail.ir>\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: ../../src/date.c:164
+msgid "Aba"
+msgstr ""
+
+#: ../../src/date.c:177
+msgid "Aban"
+msgstr ""
+
+#: ../../src/date.c:227
+msgid "Ah"
+msgstr "أح"
+
+#: ../../src/date.c:230
+msgid "Ar"
+msgstr "أر"
+
+#: ../../src/date.c:165
+msgid "Aza"
+msgstr ""
+
+#: ../../src/date.c:178
+msgid "Azar"
+msgstr ""
+
+#: ../../src/date.c:167
+msgid "Bah"
+msgstr ""
+
+#: ../../src/date.c:180
+msgid "Bahman"
+msgstr ""
+
+#: ../../src/date.c:186
+msgid "Ch"
+msgstr ""
+
+#: ../../src/date.c:194
+msgid "ChaharShanbeh"
+msgstr ""
+
+#: ../../src/date.c:166 ../../src/date.c:179
+msgid "Dey"
+msgstr ""
+
+#: ../../src/date.c:184
+msgid "Do"
+msgstr ""
+
+#: ../../src/date.c:192
+msgid "DoShanbeh"
+msgstr ""
+
+#: ../../src/date.c:168
+msgid "Esf"
+msgstr ""
+
+#: ../../src/date.c:181
+msgid "Esfand"
+msgstr ""
+
+#: ../../src/date.c:157
+msgid "Far"
+msgstr ""
+
+#: ../../src/date.c:170
+msgid "Farvardin"
+msgstr ""
+
+#: ../../src/date.c:228
+msgid "It"
+msgstr "إث"
+
+#: ../../src/date.c:188
+msgid "Jo"
+msgstr ""
+
+#: ../../src/date.c:196
+msgid "Jomeh"
+msgstr ""
+
+#: ../../src/date.c:232
+msgid "Ju"
+msgstr "جم"
+
+#: ../../src/date.c:205
+msgid "JuA"
+msgstr "جم۱"
+
+#: ../../src/date.c:206
+msgid "JuT"
+msgstr "جم۲"
+
+#: ../../src/date.c:218
+msgid "Jumada-alAwwal"
+msgstr "جمادی الاول"
+
+#: ../../src/date.c:219
+msgid "Jumada-athThani"
+msgstr "جمادی الثانی"
+
+#: ../../src/date.c:231
+msgid "Kh"
+msgstr "خم"
+
+#: ../../src/date.c:159
+msgid "Kho"
+msgstr ""
+
+#: ../../src/date.c:172
+msgid "Khordad"
+msgstr ""
+
+#: ../../src/date.c:163
+msgid "Meh"
+msgstr ""
+
+#: ../../src/date.c:176
+msgid "Mehr"
+msgstr ""
+
+#: ../../src/date.c:161
+msgid "Mor"
+msgstr ""
+
+#: ../../src/date.c:174
+msgid "Mordad"
+msgstr ""
+
+#: ../../src/date.c:201
+msgid "Muh"
+msgstr "محر"
+
+#: ../../src/date.c:214
+msgid "Muharram"
+msgstr "محرم"
+
+#: ../../src/date.c:158
+msgid "Ord"
+msgstr ""
+
+#: ../../src/date.c:171
+msgid "Ordibehesht"
+msgstr ""
+
+#: ../../src/date.c:187
+msgid "Pa"
+msgstr ""
+
+#: ../../src/date.c:195
+msgid "PanjShanbeh"
+msgstr ""
+
+#: ../../src/date.c:203
+msgid "RaA"
+msgstr "رب۱"
+
+#: ../../src/date.c:204
+msgid "RaT"
+msgstr "رب۲"
+
+#: ../../src/date.c:216
+msgid "Rabi-alAwwal"
+msgstr "ربیع الاول"
+
+#: ../../src/date.c:217
+msgid "Rabi-athThani"
+msgstr "ربیع الثانی"
+
+#: ../../src/date.c:207
+msgid "Raj"
+msgstr "رجب"
+
+#: ../../src/date.c:220
+msgid "Rajab"
+msgstr "رجب"
+
+#: ../../src/date.c:209
+msgid "Ram"
+msgstr "رمض"
+
+#: ../../src/date.c:222
+msgid "Ramadan"
+msgstr "رمضان"
+
+#: ../../src/date.c:233
+msgid "Sa"
+msgstr "سب"
+
+#: ../../src/date.c:202
+msgid "Saf"
+msgstr "صفر"
+
+#: ../../src/date.c:215
+msgid "Safar"
+msgstr "صفر"
+
+#: ../../src/date.c:185
+msgid "Se"
+msgstr ""
+
+#: ../../src/date.c:193
+msgid "SehShanbeh"
+msgstr ""
+
+#: ../../src/date.c:189
+msgid "Sh"
+msgstr ""
+
+#: ../../src/date.c:162 ../../src/date.c:208
+msgid "Sha"
+msgstr "شعب"
+
+#: ../../src/date.c:221
+msgid "Shaban"
+msgstr "شعبان"
+
+#: ../../src/date.c:175
+msgid "Shahrivar"
+msgstr ""
+
+#: ../../src/date.c:197
+msgid "Shanbeh"
+msgstr ""
+
+#: ../../src/date.c:223
+msgid "Shawwal"
+msgstr "شوال"
+
+#: ../../src/date.c:210
+msgid "Shw"
+msgstr "شوا"
+
+#: ../../src/date.c:229
+msgid "Th"
+msgstr "ثل"
+
+#: ../../src/date.c:160 ../../src/date.c:173
+msgid "Tir"
+msgstr ""
+
+#: ../../src/date.c:183
+msgid "Ye"
+msgstr ""
+
+#: ../../src/date.c:191
+msgid "YekShanbeh"
+msgstr ""
+
+#: ../../src/date.c:225
+msgid "Zi-alHijjah"
+msgstr "ذی الحجه"
+
+#: ../../src/date.c:224
+msgid "Zi-alQadah"
+msgstr "ذی القعده"
+
+#: ../../src/date.c:212
+msgid "ZiH"
+msgstr "ذی۱"
+
+#: ../../src/date.c:211
+msgid "ZiQ"
+msgstr "ذی۲"
+
+#: ../../src/date.c:235
+msgid "alAhad"
+msgstr "الأحد"
+
+#: ../../src/date.c:238
+msgid "alArbia"
+msgstr "الأربعاء"
+
+#: ../../src/date.c:236
+msgid "alIthnayn"
+msgstr "الإثنین"
+
+#: ../../src/date.c:240
+msgid "alJumah"
+msgstr "الجمعة"
+
+#: ../../src/date.c:239
+msgid "alKhamis"
+msgstr "الخمیس"
+
+#: ../../src/date.c:237
+msgid "alThulatha"
+msgstr "الثلاثاء"
+
+#: ../../src/date.c:241
+msgid "asSabt"
+msgstr "السّبت"

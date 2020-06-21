@@ -1,0 +1,28 @@
+#!/bin/bash
+
+case $3 in
+    po)
+        xgettext -k_ -s -o $1.pot -f files.in
+        mkdir -p $2
+        msginit -l $2 -o $2/$1.po -i $1.pot
+        sed -i "s/charset=ASCII/charset=UTF-8/g" $2/$1.po
+        ;;
+    pu)
+        xgettext -k_ -s -o $1.pot -f files.in
+        mkdir -p $2
+        msgmerge -U $2/$1.po $1.pot
+        ;;
+    mo)
+        msgfmt -o $2/$1.mo $2/$1.po
+        mkdir -p $2/LC_MESSAGES
+        mv $2/$1.mo $2/LC_MESSAGES/$1.mo
+        ;;
+    *)
+        echo usage:
+        echo - ./translation domain language ...
+        echo example:
+        echo - ./translation lahzeh fa po
+        echo - ./translation lahzeh fa pu
+        echo - ./translation lahzeh fa mo
+        ;;
+esac
