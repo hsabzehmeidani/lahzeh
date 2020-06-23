@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-15 14:34+0430\n"
+"POT-Creation-Date: 2020-06-23 10:57+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,294 +17,150 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../src/date.c:164
-msgid "Aba"
+#: ../../src/date.c:277
+msgid "Apr"
 msgstr ""
 
-#: ../../src/date.c:177
-msgid "Aban"
+#: ../../src/date.c:290
+msgid "April"
 msgstr ""
 
-#: ../../src/date.c:227
-msgid "Ah"
+#: ../../src/date.c:281
+msgid "Aug"
 msgstr ""
 
-#: ../../src/date.c:230
-msgid "Ar"
+#: ../../src/date.c:294
+msgid "August"
 msgstr ""
 
-#: ../../src/date.c:165
-msgid "Aza"
+#: ../../src/date.c:285
+msgid "Dec"
 msgstr ""
 
-#: ../../src/date.c:178
-msgid "Azar"
+#: ../../src/date.c:298
+msgid "December"
 msgstr ""
 
-#: ../../src/date.c:167
-msgid "Bah"
+#: ../../src/date.c:275
+msgid "Feb"
 msgstr ""
 
-#: ../../src/date.c:180
-msgid "Bahman"
+#: ../../src/date.c:288
+msgid "February"
 msgstr ""
 
-#: ../../src/date.c:186
-msgid "Ch"
+#: ../../src/date.c:305
+msgid "Fr"
 msgstr ""
 
-#: ../../src/date.c:194
-msgid "ChaharShanbeh"
+#: ../../src/date.c:313
+msgid "Friday"
 msgstr ""
 
-#: ../../src/date.c:166 ../../src/date.c:179
-msgid "Dey"
+#: ../../src/date.c:274
+msgid "Jan"
 msgstr ""
 
-#: ../../src/date.c:184
-msgid "Do"
+#: ../../src/date.c:287
+msgid "January"
 msgstr ""
 
-#: ../../src/date.c:192
-msgid "DoShanbeh"
+#: ../../src/date.c:280
+msgid "Jul"
 msgstr ""
 
-#: ../../src/date.c:168
-msgid "Esf"
+#: ../../src/date.c:293
+msgid "July"
 msgstr ""
 
-#: ../../src/date.c:181
-msgid "Esfand"
+#: ../../src/date.c:279
+msgid "Jun"
 msgstr ""
 
-#: ../../src/date.c:157
-msgid "Far"
+#: ../../src/date.c:292
+msgid "June"
 msgstr ""
 
-#: ../../src/date.c:170
-msgid "Farvardin"
+#: ../../src/date.c:276
+msgid "Mar"
 msgstr ""
 
-#: ../../src/date.c:228
-msgid "It"
+#: ../../src/date.c:289
+msgid "March"
 msgstr ""
 
-#: ../../src/date.c:188
-msgid "Jo"
+#: ../../src/date.c:278 ../../src/date.c:291
+msgid "May"
 msgstr ""
 
-#: ../../src/date.c:196
-msgid "Jomeh"
+#: ../../src/date.c:301
+msgid "Mo"
 msgstr ""
 
-#: ../../src/date.c:232
-msgid "Ju"
+#: ../../src/date.c:309
+msgid "Monday"
 msgstr ""
 
-#: ../../src/date.c:205
-msgid "JuA"
+#: ../../src/date.c:284
+msgid "Nov"
 msgstr ""
 
-#: ../../src/date.c:206
-msgid "JuT"
+#: ../../src/date.c:297
+msgid "November"
 msgstr ""
 
-#: ../../src/date.c:218
-msgid "Jumada-alAwwal"
+#: ../../src/date.c:283
+msgid "Oct"
 msgstr ""
 
-#: ../../src/date.c:219
-msgid "Jumada-athThani"
+#: ../../src/date.c:296
+msgid "October"
 msgstr ""
 
-#: ../../src/date.c:231
-msgid "Kh"
-msgstr ""
-
-#: ../../src/date.c:159
-msgid "Kho"
-msgstr ""
-
-#: ../../src/date.c:172
-msgid "Khordad"
-msgstr ""
-
-#: ../../src/date.c:163
-msgid "Meh"
-msgstr ""
-
-#: ../../src/date.c:176
-msgid "Mehr"
-msgstr ""
-
-#: ../../src/date.c:161
-msgid "Mor"
-msgstr ""
-
-#: ../../src/date.c:174
-msgid "Mordad"
-msgstr ""
-
-#: ../../src/date.c:201
-msgid "Muh"
-msgstr ""
-
-#: ../../src/date.c:214
-msgid "Muharram"
-msgstr ""
-
-#: ../../src/date.c:158
-msgid "Ord"
-msgstr ""
-
-#: ../../src/date.c:171
-msgid "Ordibehesht"
-msgstr ""
-
-#: ../../src/date.c:187
-msgid "Pa"
-msgstr ""
-
-#: ../../src/date.c:195
-msgid "PanjShanbeh"
-msgstr ""
-
-#: ../../src/date.c:203
-msgid "RaA"
-msgstr ""
-
-#: ../../src/date.c:204
-msgid "RaT"
-msgstr ""
-
-#: ../../src/date.c:216
-msgid "Rabi-alAwwal"
-msgstr ""
-
-#: ../../src/date.c:217
-msgid "Rabi-athThani"
-msgstr ""
-
-#: ../../src/date.c:207
-msgid "Raj"
-msgstr ""
-
-#: ../../src/date.c:220
-msgid "Rajab"
-msgstr ""
-
-#: ../../src/date.c:209
-msgid "Ram"
-msgstr ""
-
-#: ../../src/date.c:222
-msgid "Ramadan"
-msgstr ""
-
-#: ../../src/date.c:233
+#: ../../src/date.c:306
 msgid "Sa"
 msgstr ""
 
-#: ../../src/date.c:202
-msgid "Saf"
+#: ../../src/date.c:314
+msgid "Saturday"
 msgstr ""
 
-#: ../../src/date.c:215
-msgid "Safar"
+#: ../../src/date.c:282
+msgid "Sep"
 msgstr ""
 
-#: ../../src/date.c:185
-msgid "Se"
+#: ../../src/date.c:295
+msgid "September"
 msgstr ""
 
-#: ../../src/date.c:193
-msgid "SehShanbeh"
+#: ../../src/date.c:300
+msgid "Su"
 msgstr ""
 
-#: ../../src/date.c:189
-msgid "Sh"
+#: ../../src/date.c:308
+msgid "Sunday"
 msgstr ""
 
-#: ../../src/date.c:162 ../../src/date.c:208
-msgid "Sha"
-msgstr ""
-
-#: ../../src/date.c:221
-msgid "Shaban"
-msgstr ""
-
-#: ../../src/date.c:175
-msgid "Shahrivar"
-msgstr ""
-
-#: ../../src/date.c:197
-msgid "Shanbeh"
-msgstr ""
-
-#: ../../src/date.c:223
-msgid "Shawwal"
-msgstr ""
-
-#: ../../src/date.c:210
-msgid "Shw"
-msgstr ""
-
-#: ../../src/date.c:229
+#: ../../src/date.c:304
 msgid "Th"
 msgstr ""
 
-#: ../../src/date.c:160 ../../src/date.c:173
-msgid "Tir"
+#: ../../src/date.c:312
+msgid "Thursday"
 msgstr ""
 
-#: ../../src/date.c:183
-msgid "Ye"
+#: ../../src/date.c:302
+msgid "Tu"
 msgstr ""
 
-#: ../../src/date.c:191
-msgid "YekShanbeh"
+#: ../../src/date.c:310
+msgid "Tuesday"
 msgstr ""
 
-#: ../../src/date.c:225
-msgid "Zi-alHijjah"
+#: ../../src/date.c:303
+msgid "We"
 msgstr ""
 
-#: ../../src/date.c:224
-msgid "Zi-alQadah"
-msgstr ""
-
-#: ../../src/date.c:212
-msgid "ZiH"
-msgstr ""
-
-#: ../../src/date.c:211
-msgid "ZiQ"
-msgstr ""
-
-#: ../../src/date.c:235
-msgid "alAhad"
-msgstr ""
-
-#: ../../src/date.c:238
-msgid "alArbia"
-msgstr ""
-
-#: ../../src/date.c:236
-msgid "alIthnayn"
-msgstr ""
-
-#: ../../src/date.c:240
-msgid "alJumah"
-msgstr ""
-
-#: ../../src/date.c:239
-msgid "alKhamis"
-msgstr ""
-
-#: ../../src/date.c:237
-msgid "alThulatha"
-msgstr ""
-
-#: ../../src/date.c:241
-msgid "asSabt"
+#: ../../src/date.c:311
+msgid "Wednesday"
 msgstr ""

@@ -5,6 +5,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../src/config.c \
+../src/crescent.c \
 ../src/date.c \
 ../src/date_check.c \
 ../src/date_days.c \
@@ -17,6 +18,7 @@ C_SRCS += \
 
 OBJS += \
 ./src/config.o \
+./src/crescent.o \
 ./src/date.o \
 ./src/date_check.o \
 ./src/date_days.o \
@@ -29,6 +31,7 @@ OBJS += \
 
 C_DEPS += \
 ./src/config.d \
+./src/crescent.d \
 ./src/date.d \
 ./src/date_check.d \
 ./src/date_days.d \

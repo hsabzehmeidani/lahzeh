@@ -23,6 +23,7 @@ main (int argc, char *argv[])
     { "IR", "fa", "UTF-8", "Asia/Tehran" };
 
     config_set (argc, argv, &l);
+    strcpy(country_crescent, l.country);
 
     struct date d;
     date_current (l, &d);

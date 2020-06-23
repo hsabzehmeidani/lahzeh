@@ -99,6 +99,18 @@ solar_hijri_leap_list (int year_s, int year_e)
 bool
 lunar_hijri_leap (int year)
 {
+    /* Crescent Lunar Hijri */
+    if (strcmp (country_crescent, "IR") == 0)
+    {
+        struct crescent lhc;
+        lunar_hijri_crescent (year, &lhc);
+
+        if (year >= lhc.year_s && year <= lhc.year_e)
+        {
+            return lunar_hijri_crescent (year, &lhc);
+        }
+    }
+
     int leap_years[] =
     { 2, 5, 7, 10, 13, 16, 18, 21, 24, 26, 29 };
     for (int i = 0; i < 11; i++)

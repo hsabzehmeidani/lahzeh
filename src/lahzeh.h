@@ -69,6 +69,8 @@ char path[LEN_PATH];
 
 char dformat[LEN_FORMAT + 1];
 
+char country_crescent[LEN_COUNTRY + 1];
+
 struct locale
 {
     char country[LEN_COUNTRY + 1];
@@ -99,6 +101,13 @@ struct mwname
     char *month[12]; /* month [12] [LEN_MNAME_MAX + 1] */
     char *wee[7];    /* wee   [7]  [LEN_WNAME_MIN + 1] */
     char *week[7];   /* week  [7]  [LEN_WNAME_MAX + 1] */
+};
+
+struct crescent
+{
+    int year_s;
+    int year_e;
+    int month[12];
 };
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
 /* The functions in config.c */
@@ -219,6 +228,15 @@ void
 lunar_hijri_check (struct date *d);
 void
 gregorian_christmas_check (struct date *d);
+
+#endif
+/* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
+/* The functions in crescent.c */
+#ifndef ENABLE_CRESCENT_C
+#define ENABLE_CRESCENT_C
+
+bool
+lunar_hijri_crescent (int year, struct crescent *lhc);
 
 #endif
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */

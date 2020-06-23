@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-15 14:32+0430\n"
+"POT-Creation-Date: 2020-06-23 10:53+0430\n"
 "PO-Revision-Date: 2020-06-11 18:03+0430\n"
 "Last-Translator: User <H.Sabzehmeidani@chmail.ir>\n"
 "Language-Team: Persian\n"
@@ -17,294 +17,146 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.3.1\n"
 
-#: ../../src/date.c:164
+#: ../../src/date.c:191
 msgid "Aba"
 msgstr "آبا"
 
-#: ../../src/date.c:177
+#: ../../src/date.c:204
 msgid "Aban"
 msgstr "آبان"
 
-#: ../../src/date.c:227
-msgid "Ah"
-msgstr ""
-
-#: ../../src/date.c:230
-msgid "Ar"
-msgstr ""
-
-#: ../../src/date.c:165
+#: ../../src/date.c:192
 msgid "Aza"
 msgstr "آذر"
 
-#: ../../src/date.c:178
+#: ../../src/date.c:205
 msgid "Azar"
 msgstr "آذر"
 
-#: ../../src/date.c:167
+#: ../../src/date.c:194
 msgid "Bah"
 msgstr "بهم"
 
-#: ../../src/date.c:180
+#: ../../src/date.c:207
 msgid "Bahman"
 msgstr "بهمن"
 
-#: ../../src/date.c:186
+#: ../../src/date.c:213
 msgid "Ch"
 msgstr "چه"
 
-#: ../../src/date.c:194
+#: ../../src/date.c:221
 msgid "ChaharShanbeh"
 msgstr "چهار شنبه"
 
-#: ../../src/date.c:166 ../../src/date.c:179
+#: ../../src/date.c:193 ../../src/date.c:206
 msgid "Dey"
 msgstr "دی"
 
-#: ../../src/date.c:184
+#: ../../src/date.c:211
 msgid "Do"
 msgstr "دو"
 
-#: ../../src/date.c:192
+#: ../../src/date.c:219
 msgid "DoShanbeh"
 msgstr "دو شنبه"
 
-#: ../../src/date.c:168
+#: ../../src/date.c:195
 msgid "Esf"
 msgstr "اسف"
 
-#: ../../src/date.c:181
+#: ../../src/date.c:208
 msgid "Esfand"
 msgstr "اسفند"
 
-#: ../../src/date.c:157
+#: ../../src/date.c:184
 msgid "Far"
 msgstr "فرو"
 
-#: ../../src/date.c:170
+#: ../../src/date.c:197
 msgid "Farvardin"
 msgstr "فروردین"
 
-#: ../../src/date.c:228
-msgid "It"
-msgstr ""
-
-#: ../../src/date.c:188
+#: ../../src/date.c:215
 msgid "Jo"
 msgstr "جم"
 
-#: ../../src/date.c:196
+#: ../../src/date.c:223
 msgid "Jomeh"
 msgstr "جمعه"
 
-#: ../../src/date.c:232
-msgid "Ju"
-msgstr ""
-
-#: ../../src/date.c:205
-msgid "JuA"
-msgstr ""
-
-#: ../../src/date.c:206
-msgid "JuT"
-msgstr ""
-
-#: ../../src/date.c:218
-msgid "Jumada-alAwwal"
-msgstr ""
-
-#: ../../src/date.c:219
-msgid "Jumada-athThani"
-msgstr ""
-
-#: ../../src/date.c:231
-msgid "Kh"
-msgstr ""
-
-#: ../../src/date.c:159
+#: ../../src/date.c:186
 msgid "Kho"
 msgstr "خرد"
 
-#: ../../src/date.c:172
+#: ../../src/date.c:199
 msgid "Khordad"
 msgstr "خرداد"
 
-#: ../../src/date.c:163
+#: ../../src/date.c:190
 msgid "Meh"
 msgstr "مهر"
 
-#: ../../src/date.c:176
+#: ../../src/date.c:203
 msgid "Mehr"
 msgstr "مهر"
 
-#: ../../src/date.c:161
+#: ../../src/date.c:188
 msgid "Mor"
 msgstr "مرد"
 
-#: ../../src/date.c:174
+#: ../../src/date.c:201
 msgid "Mordad"
 msgstr "مرداد"
 
-#: ../../src/date.c:201
-msgid "Muh"
-msgstr ""
-
-#: ../../src/date.c:214
-msgid "Muharram"
-msgstr ""
-
-#: ../../src/date.c:158
+#: ../../src/date.c:185
 msgid "Ord"
 msgstr "ارد"
 
-#: ../../src/date.c:171
+#: ../../src/date.c:198
 msgid "Ordibehesht"
 msgstr "اردیبهشت"
 
-#: ../../src/date.c:187
+#: ../../src/date.c:214
 msgid "Pa"
 msgstr "پن"
 
-#: ../../src/date.c:195
+#: ../../src/date.c:222
 msgid "PanjShanbeh"
 msgstr "پنج شنبه"
 
-#: ../../src/date.c:203
-msgid "RaA"
-msgstr ""
-
-#: ../../src/date.c:204
-msgid "RaT"
-msgstr ""
-
-#: ../../src/date.c:216
-msgid "Rabi-alAwwal"
-msgstr ""
-
-#: ../../src/date.c:217
-msgid "Rabi-athThani"
-msgstr ""
-
-#: ../../src/date.c:207
-msgid "Raj"
-msgstr ""
-
-#: ../../src/date.c:220
-msgid "Rajab"
-msgstr ""
-
-#: ../../src/date.c:209
-msgid "Ram"
-msgstr ""
-
-#: ../../src/date.c:222
-msgid "Ramadan"
-msgstr ""
-
-#: ../../src/date.c:233
-msgid "Sa"
-msgstr ""
-
-#: ../../src/date.c:202
-msgid "Saf"
-msgstr ""
-
-#: ../../src/date.c:215
-msgid "Safar"
-msgstr ""
-
-#: ../../src/date.c:185
+#: ../../src/date.c:212
 msgid "Se"
 msgstr "سه"
 
-#: ../../src/date.c:193
+#: ../../src/date.c:220
 msgid "SehShanbeh"
 msgstr "سه شنبه"
 
-#: ../../src/date.c:189
+#: ../../src/date.c:216
 msgid "Sh"
 msgstr "شن"
 
-#: ../../src/date.c:162 ../../src/date.c:208
+#: ../../src/date.c:189
 msgid "Sha"
 msgstr "شهر"
 
-#: ../../src/date.c:221
-msgid "Shaban"
-msgstr ""
-
-#: ../../src/date.c:175
+#: ../../src/date.c:202
 msgid "Shahrivar"
 msgstr "شهریور"
 
-#: ../../src/date.c:197
+#: ../../src/date.c:224
 msgid "Shanbeh"
 msgstr "شنبه"
 
-#: ../../src/date.c:223
-msgid "Shawwal"
-msgstr ""
-
-#: ../../src/date.c:210
-msgid "Shw"
-msgstr ""
-
-#: ../../src/date.c:229
-msgid "Th"
-msgstr ""
-
-#: ../../src/date.c:160 ../../src/date.c:173
+#: ../../src/date.c:187 ../../src/date.c:200
 msgid "Tir"
 msgstr "تیر"
 
-#: ../../src/date.c:183
+#: ../../src/date.c:210
 msgid "Ye"
 msgstr "یک"
 
-#: ../../src/date.c:191
+#: ../../src/date.c:218
 msgid "YekShanbeh"
 msgstr "یک شنبه"
-
-#: ../../src/date.c:225
-msgid "Zi-alHijjah"
-msgstr ""
-
-#: ../../src/date.c:224
-msgid "Zi-alQadah"
-msgstr ""
-
-#: ../../src/date.c:212
-msgid "ZiH"
-msgstr ""
-
-#: ../../src/date.c:211
-msgid "ZiQ"
-msgstr ""
-
-#: ../../src/date.c:235
-msgid "alAhad"
-msgstr ""
-
-#: ../../src/date.c:238
-msgid "alArbia"
-msgstr ""
-
-#: ../../src/date.c:236
-msgid "alIthnayn"
-msgstr ""
-
-#: ../../src/date.c:240
-msgid "alJumah"
-msgstr ""
-
-#: ../../src/date.c:239
-msgid "alKhamis"
-msgstr ""
-
-#: ../../src/date.c:237
-msgid "alThulatha"
-msgstr ""
-
-#: ../../src/date.c:241
-msgid "asSabt"
-msgstr ""

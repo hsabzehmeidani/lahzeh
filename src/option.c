@@ -244,8 +244,9 @@ command_line_options (int argc,
 
             else
             {
-                printf ("Try \"%s --help\" for more options.\n",
-                APP_NAME);
+                printf ("Usage: %s [OPTION]...\n", APP_NAME);
+                printf ("\n");
+                printf ("Try \"%s --help\" for more options.\n", APP_NAME);
                 break;
             }
         }
@@ -260,7 +261,7 @@ command_line_options (int argc,
 void
 option_help (void)
 {
-    printf (BLD"In the name of Allah\n"RST);
+    printf ("In the name of Allah\n");
     printf ("\n");
 
     printf ("%s %s, is a \"Solar & Lunar Hijri\" and \"Gregorian Christmas\" calendar.\n",
@@ -293,8 +294,7 @@ option_help (void)
 
     printf ("Configuration:\n");
     printf ("  -c,  --config FILE  specify config file\n");
-    printf ("                          /.../%s/res/config-startup-file\n",
-    APP_NAME);
+    printf ("                          /.../%s/res/config-startup-file\n", APP_NAME);
     printf ("  -p,  --path FOLDER  specify path folder\n");
     printf ("                          /.../%s/\n", APP_NAME);
     printf ("  --dformat  ***      specify date format\n");
@@ -315,11 +315,9 @@ option_help (void)
     printf ("                          Asia/Shanghai, Europe/Moscow, America/New_York\n");
     printf ("\n");
 
-    printf (
-    BLD"Please Open issues (bugs, questions, discussions) at <http://Sabzehmeidani.ir>\n"RST);
-    printf (
-    BLD"Copyright (C) 1399 Hossein Sabzehmeidani <H.Sabzehmeidani@chmail.ir>\n"RST);
-    printf (BLD"License GNU General Public License (GPLv3+)\n"RST);
+    printf ("Please Open issues (bugs, ...) at <https://github.com/hsabzehmeidani/lahzeh>\n");
+    printf ("Copyright (C) 1399 Hossein Sabzehmeidani <H.Sabzehmeidani@chmail.ir>\n");
+    printf ("License GNU General Public License (GPLv3+)\n");
 }
 
 #endif /* ENABLE_OPTION_C */

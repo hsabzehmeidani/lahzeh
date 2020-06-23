@@ -271,47 +271,47 @@ date_return (struct locale l,
 
     else
     {
-        strcpy (mw.mon[0], "Jan");
-        strcpy (mw.mon[1], "Feb");
-        strcpy (mw.mon[2], "Mar");
-        strcpy (mw.mon[3], "Apr");
-        strcpy (mw.mon[4], "May");
-        strcpy (mw.mon[5], "Jun");
-        strcpy (mw.mon[6], "Jul");
-        strcpy (mw.mon[7], "Aug");
-        strcpy (mw.mon[8], "Sep");
-        strcpy (mw.mon[9], "Oct");
-        strcpy (mw.mon[10], "Nov");
-        strcpy (mw.mon[11], "Dec");
+        strcpy (mw.mon[0], _("Jan"));
+        strcpy (mw.mon[1], _("Feb"));
+        strcpy (mw.mon[2], _("Mar"));
+        strcpy (mw.mon[3], _("Apr"));
+        strcpy (mw.mon[4], _("May"));
+        strcpy (mw.mon[5], _("Jun"));
+        strcpy (mw.mon[6], _("Jul"));
+        strcpy (mw.mon[7], _("Aug"));
+        strcpy (mw.mon[8], _("Sep"));
+        strcpy (mw.mon[9], _("Oct"));
+        strcpy (mw.mon[10], _("Nov"));
+        strcpy (mw.mon[11], _("Dec"));
 
-        strcpy (mw.month[0], "January");
-        strcpy (mw.month[1], "February");
-        strcpy (mw.month[2], "March");
-        strcpy (mw.month[3], "April");
-        strcpy (mw.month[4], "May");
-        strcpy (mw.month[5], "June");
-        strcpy (mw.month[6], "July");
-        strcpy (mw.month[7], "August");
-        strcpy (mw.month[8], "September");
-        strcpy (mw.month[9], "October");
-        strcpy (mw.month[10], "November");
-        strcpy (mw.month[11], "December");
+        strcpy (mw.month[0], _("January"));
+        strcpy (mw.month[1], _("February"));
+        strcpy (mw.month[2], _("March"));
+        strcpy (mw.month[3], _("April"));
+        strcpy (mw.month[4], _("May"));
+        strcpy (mw.month[5], _("June"));
+        strcpy (mw.month[6], _("July"));
+        strcpy (mw.month[7], _("August"));
+        strcpy (mw.month[8], _("September"));
+        strcpy (mw.month[9], _("October"));
+        strcpy (mw.month[10], _("November"));
+        strcpy (mw.month[11], _("December"));
 
-        strcpy (mw.wee[0], "Su");
-        strcpy (mw.wee[1], "Mo");
-        strcpy (mw.wee[2], "Tu");
-        strcpy (mw.wee[3], "We");
-        strcpy (mw.wee[4], "Th");
-        strcpy (mw.wee[5], "Fr");
-        strcpy (mw.wee[6], "Sa");
+        strcpy (mw.wee[0], _("Su"));
+        strcpy (mw.wee[1], _("Mo"));
+        strcpy (mw.wee[2], _("Tu"));
+        strcpy (mw.wee[3], _("We"));
+        strcpy (mw.wee[4], _("Th"));
+        strcpy (mw.wee[5], _("Fr"));
+        strcpy (mw.wee[6], _("Sa"));
 
-        strcpy (mw.week[0], "Sunday");
-        strcpy (mw.week[1], "Monday");
-        strcpy (mw.week[2], "Tuesday");
-        strcpy (mw.week[3], "Wednesday");
-        strcpy (mw.week[4], "Thursday");
-        strcpy (mw.week[5], "Friday");
-        strcpy (mw.week[6], "Saturday");
+        strcpy (mw.week[0], _("Sunday"));
+        strcpy (mw.week[1], _("Monday"));
+        strcpy (mw.week[2], _("Tuesday"));
+        strcpy (mw.week[3], _("Wednesday"));
+        strcpy (mw.week[4], _("Thursday"));
+        strcpy (mw.week[5], _("Friday"));
+        strcpy (mw.week[6], _("Saturday"));
     }
 
     char *s = malloc (LEN_PRINT * sizeof(char));

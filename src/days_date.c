@@ -53,9 +53,6 @@ solar_hijri_date (int days, struct date *d)
         d->week = (9 - d->week) % 7;
     }
 
-    int days_of_months[] =
-    { 31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29 };
-
     d->year = 1;
     while ((days >= 365 && !solar_hijri_leap (d->year))
             || (days >= 366 && solar_hijri_leap (d->year)))
@@ -70,6 +67,9 @@ solar_hijri_date (int days, struct date *d)
         }
         d->year += 1;
     }
+
+    int days_of_months[] =
+    { 31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29 };
 
     if (solar_hijri_leap (d->year))
     {
@@ -140,9 +140,6 @@ lunar_hijri_date (int days, struct date *d)
         d->week = (9 - d->week) % 7;
     }
 
-    int days_of_months[] =
-    { 30, 29, 30, 29, 30, 29, 30, 29, 30, 29, 30, 29 };
-
     d->year = 1;
     while ((days >= 354 && !lunar_hijri_leap (d->year))
             || (days >= 355 && lunar_hijri_leap (d->year)))
@@ -158,9 +155,27 @@ lunar_hijri_date (int days, struct date *d)
         d->year += 1;
     }
 
+    int days_of_months[] =
+    { 30, 29, 30, 29, 30, 29, 30, 29, 30, 29, 30, 29 };
+
     if (lunar_hijri_leap (d->year))
     {
         days_of_months[11] = 30;
+    }
+
+    /* Crescent Lunar Hijri */
+    if (strcmp (country_crescent, "IR") == 0)
+    {
+        struct crescent lhc;
+        lunar_hijri_crescent (d->year, &lhc);
+
+        if (d->year >= lhc.year_s && d->year <= lhc.year_e)
+        {
+            for (int m = 0; m <= 12; m++)
+            {
+                days_of_months[m] = lhc.month[m];
+            }
+        }
     }
 
     d->month = 0;
@@ -227,9 +242,6 @@ gregorian_christmas_date (int days, struct date *d)
         d->week = (9 - d->week) % 7;
     }
 
-    int days_of_months[] =
-    { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
-
     d->year = 1;
     while ((days >= 365 && !gregorian_christmas_leap (d->year))
             || (days >= 366 && gregorian_christmas_leap (d->year)))
@@ -244,6 +256,9 @@ gregorian_christmas_date (int days, struct date *d)
         }
         d->year += 1;
     }
+
+    int days_of_months[] =
+    { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
     if (gregorian_christmas_leap (d->year))
     {
