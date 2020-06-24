@@ -171,7 +171,7 @@ lunar_hijri_date (int days, struct date *d)
 
         if (d->year >= lhc.year_s && d->year <= lhc.year_e)
         {
-            for (int m = 0; m <= 12; m++)
+            for (int m = 0; m < 12; m++)
             {
                 days_of_months[m] = lhc.month[m];
             }

@@ -8,6 +8,17 @@
 این پرونده بر مبنای قالب [یک تاریخچه تغییر ایجاد کنید](https://keepachangelog.com/en/1.0.0/) ایجاد شده است،
 و این پروژه به [نسخه‌بندی معنایی](https://semver.org/spec/v2.0.0.html) پایبند است.
 
+## [۱.۲.۰] - ۱۳۹۹-۰۴-۰۴
+
+### اضافه شده
+
+- افزودن بررسی تبدیل تاریخ به روز در تاریخ هجری قمری (هلالی)
+
+### تغییر کرده
+
+- بهبود محتوا
+- تصحیح خطاهای جزئی
+
 ## [۱.۱.۰] - ۱۳۹۹-۰۴-۰۳
 
 ### اضافه شده
@@ -29,5 +40,6 @@
 - نمایش رویدادها
 - نمایش زمان
 
-[۱.۰.۰]: https://github.com/hsabzehmeidani/lahzeh/tree/1.1.0
+[۱.۲.۰]: https://github.com/hsabzehmeidani/lahzeh/tree/1.2.0
+[۱.۱.۰]: https://github.com/hsabzehmeidani/lahzeh/tree/1.1.0
 [۱.۰.۰]: https://github.com/hsabzehmeidani/lahzeh/tree/1.0.0

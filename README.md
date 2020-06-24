@@ -81,6 +81,10 @@ lahzeh -d --language en
 
 <div dir="rtl">
 
+**مشاهده تصویری مراحل**
+
+![نصب تقویم لحظه](lahzeh-install.gif)
+
 ## 
 
 در صورت رضایت از برنامه، می توانید مبلغی را از طریق [@](https://zarinp.al/@sabzehmeidani) هدیه نمایید.
