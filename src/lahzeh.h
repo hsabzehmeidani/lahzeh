@@ -6,7 +6,7 @@
  */
 
 #define APP_NAME    "lahzeh"
-#define APP_VERSION "1.0.0"
+#define APP_VERSION "1.3.0"
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
 #include <stdio.h>   /* printf(), sprintf() */
 #include <stdlib.h>  /* NULL, putenv(), bsearch(), atoi(), abs() */
@@ -52,16 +52,14 @@
 #define GC_YEAR_MIN   1
 #define GC_YEAR_MAX   2100
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
-#define RST "\033[0m"  /* RESET */
-#define BLD "\033[1m"  /* BOLD */
-#define BLK "\033[30m" /* BLACK */
-#define RED "\033[31m" /* RED */
-#define GRN "\033[32m" /* GREEN */
-#define YEL "\033[33m" /* YELLOW */
-#define BLU "\033[34m" /* BLUE */
-#define MAG "\033[35m" /* MAGENTA */
-#define CYN "\033[36m" /* CYAN */
-#define WHT "\033[37m" /* WHITE */
+/*
+ * Escape Character (Ascii 27)
+ * Special:"\e", Octal:"\033", Hexadecimal:"\x1b", Unicode:"\u001b"
+ */
+#define ESC "\e"       /* It depends on the host string parser */
+#define RST ESC "[0m"  /* Reset / Normal (all attributes off) */
+#define SET ESC "[1m"  /* Bold Format */
+#define CLR ESC "[94m" /* Light Blue Color */
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
 int date_event;
 

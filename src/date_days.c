@@ -63,6 +63,21 @@ lunar_hijri_days (struct date d)
         days_of_months[11] = 30;
     }
 
+    /* Crescent Lunar Hijri */
+    if (strcmp (country_crescent, "IR") == 0)
+    {
+        struct crescent lhc;
+        lunar_hijri_crescent (d.year, &lhc);
+
+        if (d.year >= lhc.year_s && d.year <= lhc.year_e)
+        {
+            for (int m = 0; m < 12; m++)
+            {
+                days_of_months[m] = lhc.month[m];
+            }
+        }
+    }
+
     for (int m = 0; m < d.month - 1; m++)
     {
         days += days_of_months[m];

@@ -41,7 +41,7 @@ command_line_options (int argc,
         {
             if (strcmp (argv[i], "-t") == 0 || strcmp (argv[i], "--time") == 0)
             {
-                printf (BLD"[ %02i:%02i:%02i  %s ]\n"RST,
+                printf (SET"[ %02i:%02i:%02i  %s ]\n"RST,
                         t.hour,
                         t.minute,
                         t.second,
@@ -54,7 +54,7 @@ command_line_options (int argc,
                 char *str_sh = date_return (l, d_sh, "SH", dformat);
                 char *str_lh = date_return (l, d_lh, "LH", dformat);
                 char *str_gc = date_return (l, d_gc, "GC", dformat);
-                printf (BLD"[ %s | %s | %s ]\n"RST, str_sh, str_lh, str_gc);
+                printf (SET"[ %s | %s | %s ]\n"RST, str_sh, str_lh, str_gc);
                 if (date_event == 1)
                 {
                     event (l, d_lh, "LH");
@@ -95,7 +95,7 @@ command_line_options (int argc,
                 char *string_sh = date_return (l, date_sh, "SH", dformat);
                 char *string_lh = date_return (l, date_lh, "LH", dformat);
                 char *string_gc = date_return (l, date_gc, "GC", dformat);
-                printf (BLD"[> %s <| %s | %s ]\n"RST,
+                printf (SET"[> "CLR"%s"RST SET" <| %s | %s ]\n"RST,
                         string_sh,
                         string_lh,
                         string_gc);
@@ -140,7 +140,7 @@ command_line_options (int argc,
                 char *string_sh = date_return (l, date_sh, "SH", dformat);
                 char *string_lh = date_return (l, date_lh, "LH", dformat);
                 char *string_gc = date_return (l, date_gc, "GC", dformat);
-                printf (BLD"[ %s |> %s <| %s ]\n"RST,
+                printf (SET"[ %s |> "CLR"%s"RST SET" <| %s ]\n"RST,
                         string_sh,
                         string_lh,
                         string_gc);
@@ -185,7 +185,7 @@ command_line_options (int argc,
                 char *string_sh = date_return (l, date_sh, "SH", dformat);
                 char *string_lh = date_return (l, date_lh, "LH", dformat);
                 char *string_gc = date_return (l, date_gc, "GC", dformat);
-                printf (BLD"[ %s | %s |> %s <]\n"RST,
+                printf (SET"[ %s | %s |> "CLR"%s"RST SET" <]\n"RST,
                         string_sh,
                         string_lh,
                         string_gc);
