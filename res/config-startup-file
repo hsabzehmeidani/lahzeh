@@ -1,5 +1,5 @@
 path     = /path_to/lahzeh/
-dformat  = WWW D MMM YY
+dformat  = WWWW DD MMMM YYYY
 country  = IR
 language = fa
 charset  = UTF-8

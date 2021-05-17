@@ -2,7 +2,6 @@
 # See the "README.md" file in this directory for details.
 
 HERE="$(dirname "$(readlink -f "${0}")")"
-cd ${HERE}/Debug/
-make
-cp lahzeh ../bin/
-make clean
+export PATH=${HERE}/bin:$PATH
+export LAHZEHPATH=${HERE}/
+lahzeh --path $LAHZEHPATH "$@"

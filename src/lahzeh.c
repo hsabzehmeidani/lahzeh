@@ -18,7 +18,7 @@ main (int argc, char *argv[])
 {
     date_event = 0;
     strcpy (path, "");
-    strcpy (dformat, "WWWW YYYY/MM/DD");
+    strcpy (dformat, "WWWW DD MMMM YYYY");
     struct locale l =
     { "IR", "fa", "UTF-8", "Asia/Tehran" };
 

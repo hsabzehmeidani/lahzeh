@@ -9,14 +9,16 @@
 
 ## نصب برنامه
 
-### توزیع دبیان
+### توزیع دبیان/اوبونتو
 
 **۱. نصب بسته‌های پیش‌نیاز**
 
 </div>
 
 ```bash
-sudo apt install git make gcc libc6-dev locales locales-all
+sudo apt install git \
+locales locales-all \
+make gcc libc6-dev
 ```
 
 <div dir="rtl">
@@ -26,9 +28,14 @@ sudo apt install git make gcc libc6-dev locales locales-all
 </div>
 
 ```bash
-cd ~ && \
-mkdir -p Apps/ && \
-cd Apps/ && \
+APPSPATH="/opt/applications/"
+
+sudo mkdir -p ${APPSPATH}
+
+sudo chown user:user ${APPSPATH}
+
+cd ${APPSPATH}
+
 git clone https://github.com/hsabzehmeidani/lahzeh.git
 ```
 
@@ -36,57 +43,36 @@ git clone https://github.com/hsabzehmeidani/lahzeh.git
 
 **۳. ایجاد پرونده اجرایی برنامه**
 
-در صورتی که از توزیع دبیان (پایه) ۶۴بیت استفاده می‌کنید، پرونده اجرایی برنامه در شاخه اصلی موجود است و نیازی به انجام این مرحله نمی‌باشد.
+در صورتی که از توزیع لینوکس ۶۴بیت استفاده می‌کنید، پرونده اجرایی برنامه در شاخه `bin` موجود است و نیازی به اجرای دستور `INSTALL` نمی‌باشد.
 
 </div>
 
 ```bash
-cd lahzeh/Debug/ && \
-make && \
-cp lahzeh ../ && \
-make clean
+${APPSPATH}/lahzeh/INSTALL
 ```
 
 <div dir="rtl">
 
-**۴. فعال کردن دستور `lahzeh` در خط فرمان**
+در ادامه دستور `ln` را اجرا کنید.
 
 </div>
 
 ```bash
-echo -e "\n# lahzeh calendar\nalias lahzeh='~/Apps/lahzeh/lahzeh --path ~/Apps/lahzeh/'\nlahzeh -d" >> ~/.bashrc
+sudo ln -s ${APPSPATH}/lahzeh/AppRun /usr/local/bin/lahzeh
 ```
 
 <div dir="rtl">
 
-حال شبیه‌ساز ترمینال را به صورت دوباره اجرا کنید، تا استفاده از دستور `lahzeh` فعال شود.
-
-در صورتی که پس از اجرای دستور زیر حروف فارسی به صورت ناصحیح نمایش داده می‌شود، پیشنهاد می‌شود از شبیه‌ساز ترمینالی استفاده کنید که حروف فارسی را به صورت صحیح نمایش می‌دهند. (مثل شبیه‌ساز `konsole`)
+**۴. نمایش تقویم در شبیه‌ساز ترمینال:**
 
 </div>
 
 ```bash
-lahzeh -d -e
+echo -e "\n# lahzeh calendar\nlahzeh -d -e" >> ~/.bashrc
 ```
 
 <div dir="rtl">
 
-اما اگر مایل به تغییر شبیه‌ساز ترمینال خود نیستید، می‌توانید با اجرای دستور زیر زبان نمایش تاریخ را `en` کرده و نمایش رویدادها را غیر فعال کنید.
-
-</div>
-
-```bash
-lahzeh -d --language en
-```
-
-<div dir="rtl">
-
-**مشاهده مراحل نصب برنامه به صورت تصویری**
-
-![نصب تقویم لحظه](lahzeh-install.gif)
-
-## 
-
-در صورت رضایت از برنامه، می توانید مبلغی را از طریق [@](https://zarinp.al/@sabzehmeidani) هدیه نمایید.
+موفق باشید.
 
 </div>

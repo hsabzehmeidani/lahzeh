@@ -294,9 +294,9 @@ option_help (void)
 
     printf ("Configuration:\n");
     printf ("  -c,  --config FILE  specify config file\n");
-    printf ("                          /.../%s/res/config-startup-file\n", APP_NAME);
+    printf ("                          /path_to/%s/res/config-startup-file\n", APP_NAME);
     printf ("  -p,  --path FOLDER  specify path folder\n");
-    printf ("                          /.../%s/\n", APP_NAME);
+    printf ("                          /path_to/%s/\n", APP_NAME);
     printf ("  --dformat  ***      specify date format\n");
     printf ("                          \"YY-M-D\", \"YY/M/D\", \"YY.M.D\"\n");
     printf ("                          \"YYYY-MM-DD\", \"YYYY/MM/DD\", \"YYYY.MM.DD\"\n");
